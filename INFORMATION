@@ -1,0 +1,30 @@
+Project Development:
+  Title: FogRPG
+  Version: 0.01
+----------------------
+Classes: Knight, Berzerker, Wizard, Warrior, Ranger, Homeless
+Starting Area: Newbville
+Other Areas: Kingdom of Alba, Town of Time, Murkwater County, Whitzin Village, Time Dimension (Need Item: Necklace of Time).
+
+Start Response: Welcome to FogRPG! What Class will you choose? (Knight, Berzerker, Wizard, Warrior, Ranger, Homeless)
+Response: (Class).
+
+Next Response: Please Enter your Name. 
+Response: (Name).
+
+Next Response: Welcome to Newbville! It's a pleasure to meet you (Class, Name).
+  Responses:
+  Adventure, Travel, Inventory, Shop
+
+Adventure: You have went on an adventure!
+Adventure 2: You attack a wild (Creature) and deal (DMG) DMG, The wild (Creature) deals (CreatureDMG) DMG to you. You have (HP) HP left, The Wild (Creature) has (CreatureHP) HP left. 
+--> Would you like to Attack or Flee!
+Attack: The Wild (Creature) Dodged your attack!
+Attack 2: You deal (DMG) DMG, The Wild (Creature) deals (CreatureDMG) DMG to you. You have (HP) HP left, The Wild (Creature) has (CreatureHP) HP left.
+
+Flee: You have tried to escape the batter with a (Creature). The wild (Creature) deals (CreatureDMG) DMG to you! You have (HP) HP Left.
+Flee 2: You have successfully Escaped the battle with The Wild (Creature)!
+Travel:  
+Inventory:
+Shop:
+  
